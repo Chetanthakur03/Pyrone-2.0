@@ -6,7 +6,7 @@ from pyrogram.types import Message
 from pyrogram import filters, Client
 from config import SUDO_USERS
 
-UPSTREAM_REPO = "https://github.com/ItZxSTaR/Pyrone"
+UPSTREAM_REPO = "https://github.com/Chetanthakur03/Pyrone"
 
 def gen_chlog(repo, diff):
     upstream_repo_url = Repo().remotes[0].config_reader.get("url").replace(".git", "")
